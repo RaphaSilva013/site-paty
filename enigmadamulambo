@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enigma da Mulambo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: url('https://cdn.pixabay.com/photo/2017/08/30/07/52/stars-2695562_1280.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #eee;
+    }
+    header {
+      text-align: center;
+      background-color: rgba(0,0,0,0.7);
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4rem;
+      color: #D4AF37;
+    }
+    header p {
+      font-size: 1.3rem;
+      font-style: italic;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(0,0,0,0.6);
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    section h2 {
+      color: #D4AF37;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .photo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .photo img {
+      width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(212,175,55,0.6);
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 24px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+    .social a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      color: #bbb;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.7);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Enigma da Mulambo</h1>
+    <p>“O destino é seu, a orientação é minha.”</p>
+  </header>
+
+  <section>
+    <div class="photo">
+      <img src="images/patricia.jpg" alt="Cartomante Patrícia">
+    </div>
+    <h2>Leitura de Baralho Cigano 🔮</h2>
+    <p>O Baralho Cigano é um guia que nos ajuda a enxergar além das aparências, revelando verdades ocultas. Agende sua consulta.</p>
+  </section>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>Prazer, me chamo Patrícia. Sou umbandista e estou nessa nova caminhada da leitura de baralho cigano 💜. Se você sentir em fazer uma leitura, só entrar em contato.</p>
+  </section>
+
+  <section>
+    <h2>Serviços</h2>
+    <ul>
+      <li>Leitura de Tarô</li>
+      <li>Atendimento online</li>
+      <li>Depoimentos no Instagram</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>📞 WhatsApp: <a class="social" href="https://wa.me/5513991702163" target="_blank">(13) 99170-2163</a></p>
+    <p>👉 Instagram: <a class="social" href="https://www.instagram.com/enigmadamulambo" target="_blank">@enigmadamulambo</a></p>
+  </section>
+
+  <a href="https://wa.me/5513991702163" class="whatsapp" target="_blank">📞
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Cartomante Patrícia - Enigma da Mulambo</p>
+  </footer>
+</body>
+</html>
